@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Designs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="page-title">🎂 Birthday Designs</h1>
+
+  <div class="gallery">
+    <!-- Card 1 -->
+    <div class="card" data-id="B01" data-price="$3.5" data-images='["images/birthday01a.jpg","images/birthday01b.jpg"]'>
+      <img src="images/birthday01a.jpg" alt="Birthday Card 1">
+      <div class="caption">BD Design 1</div>
+      <div class="price">Price: $3.5</div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card" data-id="B02" data-price="$6" data-images='["images/birthday02a.jpg","images/birthday02b.jpg","images/birthday02c.jpg"]'>
+      <img src="images/birthday02a.jpg" alt="Birthday Card 2">
+      <div class="caption">Birthday Card 2</div>
+      <div class="price">Price: $6</div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card" data-id="B03" data-price="$7" data-images='["images/birthday03a.jpg","images/birthday03b.jpg"]'>
+      <img src="images/birthday03a.jpg" alt="Birthday Card 3">
+      <div class="caption">Birthday Card 3</div>
+      <div class="price">Price: $7</div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card" data-id="B04" data-price="$8" data-images='["images/birthday04a.jpg","images/birthday04b.jpg"]'>
+      <img src="images/birthday04a.jpg" alt="Birthday Card 4">
+      <div class="caption">Birthday Card 4</div>
+      <div class="price">Price: $8</div>
+    </div>
+  </div>
+
+  <!-- Modal for Full Image View -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+    <div id="modal-price"></div>
+    <button id="whatsappBtn">Order on WhatsApp</button>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

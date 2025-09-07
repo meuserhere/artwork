@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Tree Designs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="page-title">🌳 Family Tree Designs</h1>
+<p class="subtitle">We will add 3 to up to 9 photo frames in your family tree</p>
+
+ 
+  <div class="gallery">
+    <!-- Design 1 -->
+    <div class="card" data-id="F01" data-price="$5" data-images='["images/family01a.jpg","images/family01b.jpg"]'>
+      <img src="images/familytree01a.jpg" alt="Family Tree Design 1">
+      <div class="caption">Family Tree 1</div>
+      <div class="price">Price: $5</div>
+    </div>
+
+    <!-- Design 2 -->
+    <div class="card" data-id="F02" data-price="$6" data-images='["images/family02a.jpg","images/family02b.jpg","images/family02c.jpg"]'>
+      <img src="images/family02a.jpg" alt="Family Tree Design 2">
+      <div class="caption">Family Tree 2</div>
+      <div class="price">Price: $6</div>
+    </div>
+
+    <!-- Design 3 -->
+    <div class="card" data-id="F03" data-price="$7" data-images='["images/family03a.jpg","images/family03b.jpg"]'>
+      <img src="images/family03a.jpg" alt="Family Tree Design 3">
+      <div class="caption">Family Tree 3</div>
+      <div class="price">Price: $7</div>
+    </div>
+
+    <!-- Design 4 -->
+    <div class="card" data-id="F04" data-price="$8" data-images='["images/family04a.jpg","images/family04b.jpg"]'>
+      <img src="images/family04a.jpg" alt="Family Tree Design 4">
+      <div class="caption">Family Tree 4</div>
+      <div class="price">Price: $8</div>
+    </div>
+  </div>
+
+  <!-- Modal for Full Image View -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+    <div id="modal-price"></div>
+    <button id="whatsappBtn">Order on WhatsApp</button>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
